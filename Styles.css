@@ -1,0 +1,41 @@
+.grid-2 {
+    display: grid; 
+    grid-template-columns: auto auto;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.umer-photo {
+    width: 200px;
+}
+
+.info-box {
+    border: 2px solid black;
+}
+
+body {
+    background-color: #cecece;
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+    width: 200px;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .navbar {
+    display: grid;
+    grid-template-columns: auto auto;
+    border-bottom: 1px solid black;
+    background-color: #BDABDA;
